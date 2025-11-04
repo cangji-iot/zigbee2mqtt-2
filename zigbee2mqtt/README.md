@@ -19,7 +19,7 @@
         </a>
     </div>
     <p>
-<a href="https://www.gpio.club/">藏机官网</a> 点击跳转。</p>
+<a href="https://www.zigbee.cc/">藏机官网</a> 点击跳转。</p>
 </div>
 
 MQTT:
@@ -28,16 +28,16 @@ base_topic: zigbee2mqtt2
 #base_topic多加一个2 区分多开主题
 server: mqtt://localhost:1883
 #mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
-user: mqtt
-password: mqtt
+user:
+password:
 client_id: zigbee2mqtt2
 #client_id多加一个2 区分多开mqtt客户端id
 ```
 
 serial:
 ```shell
-adapter: ezsp
-port: tcp://[Gateway_IP]:[Port]
+adapter:
+port:
 ```
 
 channel:
